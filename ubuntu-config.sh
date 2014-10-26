@@ -46,3 +46,6 @@ chromium-browser curl git build-essential libssl-dev libappindicator1
 # sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
 # echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
 # sudo apt-get update && sudo apt-get install -y mongodb-org
+
+# customize prompt
+# echo -e "\n# custom prompt\nPS1=\"\u:\w $\"" >> ~/.bashrc
