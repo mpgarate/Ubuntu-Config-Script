@@ -48,4 +48,4 @@ chromium-browser curl git build-essential libssl-dev libappindicator1
 # sudo apt-get update && sudo apt-get install -y mongodb-org
 
 # customize prompt
-# echo -e "\n# custom prompt\nPS1=\"\u:\w $ \"" >> ~/.bashrc
+# echo -e "\n# custom prompt\nPS1=\"\u:\w$ \"" >> ~/.bashrc
