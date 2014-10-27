@@ -5,7 +5,8 @@
 # git config --global user.email $email
 
 sudo apt-get install -y vim vlc ubuntu-restricted-extras \
-chromium-browser curl git build-essential libssl-dev libappindicator1
+chromium-browser curl git build-essential libssl-dev libappindicator1 \
+gimp
 
 # generate ssh key
 # ssh-keygen -t rsa
