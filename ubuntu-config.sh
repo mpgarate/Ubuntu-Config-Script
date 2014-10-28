@@ -10,7 +10,7 @@ sudo apt-get update
 
 sudo apt-get install -y vim vlc ubuntu-restricted-extras \
 chromium-browser curl git build-essential libssl-dev libappindicator1 \
-gimp keepass2 fluxgui eclipse
+gimp keepass2 fluxgui eclipse subversion
 
 # generate ssh key
 # ssh-keygen -t rsa
