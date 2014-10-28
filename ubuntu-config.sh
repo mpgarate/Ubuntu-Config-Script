@@ -4,9 +4,13 @@
 
 # git config --global user.email $email
 
+
+sudo add-apt-repository ppa:kilian/f.lux
+sudo apt-get update
+
 sudo apt-get install -y vim vlc ubuntu-restricted-extras \
 chromium-browser curl git build-essential libssl-dev libappindicator1 \
-gimp
+gimp keepass2 fluxgui eclipse
 
 # generate ssh key
 # ssh-keygen -t rsa
@@ -17,9 +21,6 @@ gimp
 
 # install vim config from http://vim.spf13.com/
 # curl http://j.mp/spf13-vim3 -L -o - | sh
-
-# set touchpad scroll to natural
-# synclient VertScrollDelta=-100
 
 # install rvm with latest stable ruby and rails
 # \curl -sSL https://get.rvm.io | bash -s stable --rails
@@ -50,3 +51,9 @@ gimp
 
 # customize prompt
 # echo -e "\n# custom prompt\nPS1=\"\u:\w$ \"" >> ~/.bashrc
+
+# set touchpad scroll to natural
+# echo synclient VertScrollDelta=-100 > ~/.touchpad_settings.sh
+# chmod +x ~/.touchpad_settings.sh
+# gsettings set org.gnome.settings-daemon.peripherals.input-devices hotplug-command "/home/$USER/.touchpad_settings.sh"
+
