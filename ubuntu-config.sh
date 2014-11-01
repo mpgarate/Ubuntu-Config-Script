@@ -5,12 +5,16 @@
 # git config --global user.email $email
 
 
-sudo add-apt-repository ppa:kilian/f.lux
-sudo apt-get update
+# sudo add-apt-repository ppa:kilian/f.lux
+# sudo apt-get update
 
 sudo apt-get install -y vim vlc ubuntu-restricted-extras \
 chromium-browser curl git build-essential libssl-dev libappindicator1 \
-gimp keepass2 fluxgui eclipse subversion
+gimp keepass2 eclipse subversion nautilus-open-terminal
+
+# disable wifi power management
+# sudo iwconfig wlan0 power off
+
 
 # generate ssh key
 # ssh-keygen -t rsa
