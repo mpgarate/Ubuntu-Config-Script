@@ -1,4 +1,9 @@
 #!/bin/bash
+
+# sudo apt-get install -y vim vlc ubuntu-restricted-extras \
+# chromium-browser curl git build-essential libssl-dev libappindicator1 \
+# gimp keepass2 eclipse subversion nautilus-open-terminal screen
+
 # echo "Enter your email address, like this: mpgarate@gmail.com"
 # read email
 
@@ -8,9 +13,6 @@
 # sudo add-apt-repository ppa:kilian/f.lux
 # sudo apt-get update
 
-sudo apt-get install -y vim vlc ubuntu-restricted-extras \
-chromium-browser curl git build-essential libssl-dev libappindicator1 \
-gimp keepass2 eclipse subversion nautilus-open-terminal
 
 # disable wifi power management
 # sudo iwconfig wlan0 power off
@@ -18,7 +20,6 @@ gimp keepass2 eclipse subversion nautilus-open-terminal
 
 # generate ssh key
 # ssh-keygen -t rsa
-# git config --global user.email $email
 
 # use caps lock as escape
 # dconf write /org/gnome/desktop/input-sources/xkb-options "['caps:escape']"
@@ -41,6 +42,7 @@ gimp keepass2 eclipse subversion nautilus-open-terminal
 # nvm use '0.11.13'
 
 # dropbox
+# echo fs.inotify.max_user_watches=100000 | sudo tee -a /etc/sysctl.conf; sudo sysctl -p
 # cd ~ && wget -O - "https://www.dropbox.com/download?plat=lnx.x86_64" | tar xzf -
 # ~/.dropbox-dist/dropboxd &
 
@@ -54,7 +56,7 @@ gimp keepass2 eclipse subversion nautilus-open-terminal
 # sudo apt-get update && sudo apt-get install -y mongodb-org
 
 # customize prompt
-# echo -e "\n# custom prompt\nPS1=\"\u:\w$ \"" >> ~/.bashrc
+ echo -e "\n# custom prompt\nPS1=\"\u:\w$ \"" >> ~/.bashrc
 
 # set touchpad scroll to natural
 # echo synclient VertScrollDelta=-100 > ~/.touchpad_settings.sh
