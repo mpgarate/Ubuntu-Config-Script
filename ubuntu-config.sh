@@ -57,6 +57,10 @@
 
 # customize prompt
  echo -e "\n# custom prompt\nPS1=\"\u:\w$ \"" >> ~/.bashrc
+ 
+# use vi mode in bash
+ echo -e "\n# enable vi mode\nset -o vi" >> ~/.bashrc
+
 
 # set touchpad scroll to natural
 # echo synclient VertScrollDelta=-100 > ~/.touchpad_settings.sh
